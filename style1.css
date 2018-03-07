@@ -1,0 +1,117 @@
+h1, h2
+{
+	color: rgb(175, 25, 63);
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+
+h1, p
+{
+	text-align: center;
+}
+
+body
+{
+	background-image: url("fond.jpg");
+}
+
+#moi
+{
+	float: right;
+	border: 2px solid grey;
+	margin-right: 0.5%;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px black;
+}
+
+@font-face {
+	font-family: 'Aaarghregular';
+	src: url('Aaargh-webfont.eot');
+
+    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+
+         url('Aaargh-webfont.woff') format('woff'),
+
+         url('Aaargh-webfont.ttf') format('truetype'),
+
+         url('Aaargh-webfont.svg#Aaargh') format('svg');
+}
+
+body, html
+{
+	font-family: 'cac_champagneregular';
+	margin: 0;
+	padding: 0;
+}	
+
+header
+{
+	margin-left: 13%;
+}
+
+
+#conteneur
+{
+	display: flex;	
+	justify-content: center;
+	height: 100%;
+	margin-left: 15%;
+}
+
+section 
+{
+	width: 35%;
+	height: 100%;
+}
+h1
+{
+	font-size: 2.5em;
+}
+
+h2
+{
+	font-size: 1.5em;
+}
+
+p
+{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+ul
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.liseret
+{
+	position: fixed;
+	background-color: rgb(22, 52, 102);
+	margin:0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 8%;
+	border: 3px solid grey;
+	border-radius: 8px;
+}
+
+@media all and (max-width: 1024px)
+{
+	.liseret
+	{
+		display: none;
+	}
+
+	#conteneur
+	{
+		flex-direction: column;
+	}
+
+	section
+	{
+		width: 80%;
+	}
+}
