@@ -85,6 +85,12 @@ ul
 	font-weight: bold;
 }
 
+footer, h3, ul, li
+{
+	color: red;
+	text-align: center;
+}
+
 .liseret
 {
 	position: fixed;
@@ -114,4 +120,6 @@ ul
 	{
 		width: 80%;
 	}
+    
+
 }
